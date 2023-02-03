@@ -27,6 +27,12 @@ impl Greeter {
         Err(zbus::Error::Unsupported)
     }
 
+    /// could fail but does not
+    #[dbus_interface(property)]
+    async fn could_fail(&self) -> Result<&str> {
+        Ok("I didn't fail!")
+    }
+
     /// A "GreeterName" property.
     #[dbus_interface(property)]
     async fn greeter_name(&self) -> &str {

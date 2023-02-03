@@ -41,6 +41,10 @@ trait MyGreeter1 {
     #[dbus_proxy(property)]
     fn failing_property(&self) -> zbus::Result<String>;
 
+    /// CouldFail property
+    #[dbus_proxy(property)]
+    fn could_fail(&self) -> zbus::Result<String>;
+
     /// GreeterName property
     #[dbus_proxy(property)]
     fn greeter_name(&self) -> zbus::Result<String>;
