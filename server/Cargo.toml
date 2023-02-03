@@ -1,0 +1,12 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+zvariant = { git = "https://gitlab.freedesktop.org/ashleyw/zbus/", branch = "fallible-property" }
+zbus = { git = "https://gitlab.freedesktop.org/ashleyw/zbus/", branch = "fallible-property" }
+async-std = {version = "1.12", features = ["attributes"]}
+event-listener = "2.5"
