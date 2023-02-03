@@ -7,8 +7,8 @@ async fn main() -> zbus::Result<()> {
     let connection = Connection::session().await?;
     let my_greeter = MyGreeter1Proxy::new(&connection).await?;
     dbg!(my_greeter.say_hello("world").await?);
-    // Why is this not working?
-    dbg!(my_greeter.set_greeter_name("GreeterName").await);
+
+    dbg!(my_greeter.set_greeter_name("asdf").await);
     dbg!(my_greeter.greeter_name().await);
 
     dbg!(my_greeter.failing_property().await);

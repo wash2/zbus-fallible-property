@@ -48,5 +48,6 @@ trait MyGreeter1 {
     /// GreeterName property
     #[dbus_proxy(property)]
     fn greeter_name(&self) -> zbus::Result<String>;
+    #[dbus_proxy(property)]
     fn set_greeter_name(&self, value: &str) -> zbus::Result<()>;
 }
