@@ -23,13 +23,13 @@ impl Greeter {
 
     /// a failing property
     #[dbus_interface(property)]
-    async fn failing_property(&self) -> Result<&str> {
-        Err(zbus::Error::Unsupported)
+    async fn failing_property(&self) -> zbus::fdo::Result<&str> {
+        Err(zbus::fdo::Error::Failed("I failed!".into()))
     }
 
     /// could fail but does not
     #[dbus_interface(property)]
-    async fn could_fail(&self) -> Result<&str> {
+    async fn could_fail(&self) -> zbus::fdo::Result<&str> {
         Ok("I didn't fail!")
     }
 

@@ -1168,7 +1168,7 @@ checksum = "447660ad36a13288b1db4d4248e857b510e8c3a225c822ba4fb748c0aafecffd"
 [[package]]
 name = "zbus"
 version = "3.8.0"
-source = "git+https://gitlab.freedesktop.org/ashleyw/zbus/?branch=fallible-property#3d69e55192a39adf0ede04b458007d61346f3636"
+source = "git+https://gitlab.freedesktop.org/ashleyw/zbus/?branch=fallible-property#54d21ddc1256f7e2df01a2c3dc2bb5664f85fc6a"
 dependencies = [
  "async-broadcast",
  "async-executor",
@@ -1205,7 +1205,7 @@ dependencies = [
 [[package]]
 name = "zbus_macros"
 version = "3.8.0"
-source = "git+https://gitlab.freedesktop.org/ashleyw/zbus/?branch=fallible-property#3d69e55192a39adf0ede04b458007d61346f3636"
+source = "git+https://gitlab.freedesktop.org/ashleyw/zbus/?branch=fallible-property#54d21ddc1256f7e2df01a2c3dc2bb5664f85fc6a"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -1217,7 +1217,7 @@ dependencies = [
 [[package]]
 name = "zbus_names"
 version = "2.5.0"
-source = "git+https://gitlab.freedesktop.org/ashleyw/zbus/?branch=fallible-property#3d69e55192a39adf0ede04b458007d61346f3636"
+source = "git+https://gitlab.freedesktop.org/ashleyw/zbus/?branch=fallible-property#54d21ddc1256f7e2df01a2c3dc2bb5664f85fc6a"
 dependencies = [
  "serde",
  "static_assertions",
@@ -1227,7 +1227,7 @@ dependencies = [
 [[package]]
 name = "zvariant"
 version = "3.10.0"
-source = "git+https://gitlab.freedesktop.org/ashleyw/zbus/?branch=fallible-property#3d69e55192a39adf0ede04b458007d61346f3636"
+source = "git+https://gitlab.freedesktop.org/ashleyw/zbus/?branch=fallible-property#54d21ddc1256f7e2df01a2c3dc2bb5664f85fc6a"
 dependencies = [
  "byteorder",
  "enumflags2",
@@ -1240,7 +1240,7 @@ dependencies = [
 [[package]]
 name = "zvariant_derive"
 version = "3.10.0"
-source = "git+https://gitlab.freedesktop.org/ashleyw/zbus/?branch=fallible-property#3d69e55192a39adf0ede04b458007d61346f3636"
+source = "git+https://gitlab.freedesktop.org/ashleyw/zbus/?branch=fallible-property#54d21ddc1256f7e2df01a2c3dc2bb5664f85fc6a"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",

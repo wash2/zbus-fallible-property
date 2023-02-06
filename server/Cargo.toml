@@ -8,5 +8,7 @@ edition = "2021"
 [dependencies]
 zvariant = { git = "https://gitlab.freedesktop.org/ashleyw/zbus/", branch = "fallible-property" }
 zbus = { git = "https://gitlab.freedesktop.org/ashleyw/zbus/", branch = "fallible-property" }
+# zvariant = { path = "../../zbus/zvariant" }
+# zbus = { path = "../../zbus/zbus" }
 async-std = {version = "1.12", features = ["attributes"]}
 event-listener = "2.5"
